@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    width: 98%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color:#1a1a1a;
+    font-family: "Sour Gummy", sans-serif;
+    color: #f5f5f5;
+}
+.information{
+    font-weight: 50%;    
+    width: 100%;
+    font-size: 20px;
+    margin: 25px 0px 0px 25px;
+}
+.title{
+    background: linear-gradient(to right, #006847, #ffffff, #ce1126);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    background-size: 50%; 
+    background-repeat: no-repeat;
+    font-size: 80px;
+    margin: 0px;
+}
+.subtitle{
+    margin: -10px 0px 0px 70px;
+}
+.description{
+    margin: 0px 0px 5px 140px;
+}
+.glossary{
+    column-count: 2;
+    text-align: center;
+    align-content: center;
+    border: 5px solid #002573;
+    padding: 25px 0px;
+    height: 50%;
+    width: 70%;
+}
+.item{
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 50px 0px;
+    img{
+        margin-right: 50px;
+    }
+    a{
+        text-decoration: none;
+        cursor:pointer;
+        user-select: none;
+        color: #f5f5f5;
+    }
+}
+
